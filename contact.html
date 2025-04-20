@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - RokAi</title>
+    <meta name="description" content="Reach out to discuss how RokAi can help your small business leverage the power of artificial intelligence.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>RokAi</h1>
+                </a>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="solutions.html">Solutions</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="language-switcher">
+                    <select>
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                </div>
+                <button class="cta-button">Book a Demo</button>
+                <div class="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Let's Talk About Your AI Automation Needs</h1>
+                    <p>Reach out to discuss how RokAi can help your small business leverage the power of artificial intelligence.</p>
+                </div>
+                <div class="hero-image">
+                    <!-- Placeholder for hero image -->
+                    <div class="placeholder-image"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h2>Get in Touch</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name <span class="required">*</span></label>
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="industry">Industry <span class="required">*</span></label>
+                                <select id="industry" name="industry" required>
+                                    <option value="" disabled selected>Select your industry</option>
+                                    <option value="retail">Retail</option>
+                                    <option value="healthcare">Healthcare</option>
+                                    <option value="professional-services">Professional Services</option>
+                                    <option value="manufacturing">Manufacturing</option>
+                                    <option value="ecommerce">E-Commerce</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">How can we help you? <span class="required">*</span></label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="source">How did you hear about us?</label>
+                                <select id="source" name="source">
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="search">Search Engine</option>
+                                    <option value="social">Social Media</option>
+                                    <option value="referral">Referral</option>
+                                    <option value="event">Event or Conference</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group privacy-policy">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">I agree to the <a href="#">Privacy Policy</a> <span class="required">*</span></label>
+                            </div>
+                            <button type="submit" class="primary-button">Send Message</button>
+                        </form>
+                        <p class="privacy-note">Your information is secure and will never be shared with third parties. By submitting this form, you agree to our Privacy Policy.</p>
+                    </div>
+                    <div class="contact-info">
+                        <h2>Alternative Contact Methods</h2>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>WhatsApp Business</h3>
+                                <p>Connect with us instantly via WhatsApp for quick questions and support.</p>
+                                <a href="#" class="secondary-button">Chat on WhatsApp</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="far fa-calendar-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Schedule a Meeting</h3>
+                                <p>Book a time that works for you using our online scheduling tool.</p>
+                                <a href="#" class="secondary-button">Book a Meeting</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Email</h3>
+                                <p>For general inquiries: <a href="mailto:info@rok-ai.com">info@rok-ai.com</a></p>
+                                <p>For support: <a href="mailto:support@rok-ai.com">support@rok-ai.com</a></p>
+                                <p>For partnerships: <a href="mailto:partners@rok-ai.com">partners@rok-ai.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="method-details">
+                                <h3>Phone</h3>
+                                <p>+1 (555) 123-4567</p>
+                                <p class="small">Available Monday-Friday, 9am-5pm EST</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Location Section -->
+        <section class="office-location">
+            <div class="container">
+                <h2>Office Location</h2>
+                <div class="location-grid">
+                    <div class="location-map">
+                        <!-- Placeholder for map -->
+                        <div class="placeholder-image"></div>
+                        <a href="#" class="secondary-button">View on Map</a>
+                    </div>
+                    <div class="location-details">
+                        <h3>Headquarters</h3>
+                        <address>
+                            RokAi, Inc.<br>
+                            123 Innovation Way<br>
+                            Suite 400<br>
+                            San Francisco, CA 94103<br>
+                            United States
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section class="social-media">
+            <div class="container">
+                <h2>Connect With Us</h2>
+                <p>Follow us on social media for the latest updates, tips, and insights.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>What happens after I submit the contact form?</h3>
+                        <p>You'll receive an immediate confirmation email, and a member of our team will reach out within one business day to discuss your needs.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you offer free consultations?</h3>
+                        <p>Yes, we provide a complimentary 30-minute consultation to understand your business needs and recommend the most suitable AI solutions.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Can I request a product demo?</h3>
+                        <p>Absolutely! Use our scheduling tool to book a personalized demo of any RokAi product or solution.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you serve international clients?</h3>
+                        <p>Yes, RokAi works with small businesses worldwide. Our solutions are designed to work across different time zones and languages.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Start Your AI Journey?</h2>
+                <p>Take the first step toward transforming your business with AI automation.</p>
+                <a href="#contactForm" class="primary-button">Get Started Today</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <h2>RokAi</h2>
+                    <p>AI automation for small businesses, without the complexity.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="solutions.html">Solutions</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="industries.html">Industries</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Us</h3>
+                    <p>Email: info@rok-ai.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to get the latest updates</p>
+                    <form class="footer-newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 RokAi. All rights reserved.</p>
+                <ul class="footer-legal">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget">
+        <button class="chat-toggle">
+            <i class="fas fa-comments"></i>
+        </button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
